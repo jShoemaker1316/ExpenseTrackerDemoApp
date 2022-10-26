@@ -50,7 +50,7 @@
         "institution": "JSS",
         "account": "Broke Account",
         "merchant": "GS Payment",
-        "amount": 35,
+        "amount": 35.00,
         "type": "debit",
         "categoryId": 666,
         "category": "Bill",
