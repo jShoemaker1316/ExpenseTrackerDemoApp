@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109470D62912D7AE0042034A /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109470D52912D7AE0042034A /* TransactionList.swift */; };
 		10B96A2E290846C600E77FE6 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B96A2D290846C600E77FE6 /* ExpenseTrackerApp.swift */; };
 		10B96A30290846C600E77FE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B96A2F290846C600E77FE6 /* ContentView.swift */; };
 		10B96A32290846C700E77FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B96A31290846C700E77FE6 /* Assets.xcassets */; };
@@ -17,9 +18,11 @@
 		10B96A4229087A0000E77FE6 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B96A4129087A0000E77FE6 /* TransactionRow.swift */; };
 		10B96A4529088F0300E77FE6 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 10B96A4429088F0300E77FE6 /* SwiftUIFontIcon */; };
 		10B96A472908910200E77FE6 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B96A462908910200E77FE6 /* TransactionListViewModel.swift */; };
+		10B96A4929099CDC00E77FE6 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B96A4829099CDC00E77FE6 /* RecentTransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		109470D52912D7AE0042034A /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		10B96A2A290846C600E77FE6 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B96A2D290846C600E77FE6 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		10B96A2F290846C600E77FE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		10B96A3F2908786B00E77FE6 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		10B96A4129087A0000E77FE6 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		10B96A462908910200E77FE6 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		10B96A4829099CDC00E77FE6 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +69,14 @@
 			children = (
 				10B96A2D290846C600E77FE6 /* ExpenseTrackerApp.swift */,
 				10B96A2F290846C600E77FE6 /* ContentView.swift */,
+				10B96A4829099CDC00E77FE6 /* RecentTransactionList.swift */,
 				10B96A4129087A0000E77FE6 /* TransactionRow.swift */,
 				10B96A462908910200E77FE6 /* TransactionListViewModel.swift */,
 				10B96A3D2908752600E77FE6 /* TransactionModel.swift */,
 				10B96A3B290849E200E77FE6 /* Extensions.swift */,
 				10B96A31290846C700E77FE6 /* Assets.xcassets */,
 				10B96A33290846C700E77FE6 /* Preview Content */,
+				109470D52912D7AE0042034A /* TransactionList.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B96A402908786B00E77FE6 /* PreviewData.swift in Sources */,
+				109470D62912D7AE0042034A /* TransactionList.swift in Sources */,
+				10B96A4929099CDC00E77FE6 /* RecentTransactionList.swift in Sources */,
 				10B96A3E2908752600E77FE6 /* TransactionModel.swift in Sources */,
 				10B96A30290846C600E77FE6 /* ContentView.swift in Sources */,
 				10B96A4229087A0000E77FE6 /* TransactionRow.swift in Sources */,
