@@ -24,6 +24,7 @@ struct TransactionList: View {
                         // MARK: Transaction Month
                         Text(month)
                     }
+                    .listSectionSeparator(.hidden)
                 }
             }
             .listStyle(.plain)

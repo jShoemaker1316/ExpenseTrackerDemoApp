@@ -34,3 +34,15 @@ extension String {
         return parsedDate
     }
 }
+//need to make Date Strideable for parsing our data for the chart in TransactionListViewModel. also should change how the date data appears
+extension Date: Strideable {
+    func formatted() -> String {
+        return self.formatted(.dateTime.year().month().day())
+    }
+}
+
+extension Double {
+    func roundedToTwoDigits() -> Double {
+        return (self * 100).rounded() / 100
+    }
+}
